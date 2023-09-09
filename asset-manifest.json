@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gdsc_web_pravin/static/css/main.0023a617.css",
+    "main.js": "/gdsc_web_pravin/static/js/main.64039f45.js",
+    "static/js/787.457b970f.chunk.js": "/gdsc_web_pravin/static/js/787.457b970f.chunk.js",
+    "static/media/n3.png": "/gdsc_web_pravin/static/media/n3.43985360f21595d5732d.png",
+    "static/media/home1.png": "/gdsc_web_pravin/static/media/home1.7176c5dec85790bddfee.png",
+    "static/media/n1.png": "/gdsc_web_pravin/static/media/n1.6c34191edfda4fe9b5a6.png",
+    "static/media/n2.png": "/gdsc_web_pravin/static/media/n2.786e089534910f58a75d.png",
+    "static/media/h1.png": "/gdsc_web_pravin/static/media/h1.2ae28c918a5b6e27a8d2.png",
+    "index.html": "/gdsc_web_pravin/index.html",
+    "main.0023a617.css.map": "/gdsc_web_pravin/static/css/main.0023a617.css.map",
+    "main.64039f45.js.map": "/gdsc_web_pravin/static/js/main.64039f45.js.map",
+    "787.457b970f.chunk.js.map": "/gdsc_web_pravin/static/js/787.457b970f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0023a617.css",
+    "static/js/main.64039f45.js"
+  ]
+}
