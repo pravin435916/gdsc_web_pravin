@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* styles.css */
+:root {
+  --background-color: white;
+  --color: black;
+}
+
+.dark-mode {
+  --background-color: black;
+  --color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  transition: background-color 0.5s, color 0.5s;
+}

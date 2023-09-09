@@ -1,0 +1,188 @@
+@media screen and (max-width:480px){
+    .container2{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        bottom:7rem;
+    }
+    .container2>h1{
+       position: absolute;
+       top:6rem;
+    }
+    .arrow{
+        position: absolute;
+        top: 0.5rem;
+        left: 8rem;
+    }
+    .box{
+        position: relative;
+        top: 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        margin-top: 3rem;
+        gap: 3px;
+    }
+    #imgc{
+        width: 16rem;
+    }
+    #imgc2{
+        width: 16rem;
+    }
+    .box>h1{
+        font-size: 1.5rem;
+        margin-right: 10rem;
+        left: 2px;
+    }
+    .box>.flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .content>p{
+        padding: 0;
+        font-size: 0.3rem;
+    }
+    .circle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0px;
+        display: none;
+    }
+    .cir_in{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+    .box1{
+            width: 60px;
+            height: 60px;
+            display: none;
+        }
+    .in_box{
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+    .in_box>span{
+        font-size: 1rem;
+        font-weight: 700;
+        color:#5F5F5F;
+        display: none;
+    }
+    .cir_in>span:nth-child(2){
+        font-size: 0.5rem;
+        display: none;
+    }
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.box>.flex>.img>img{
+    width: 25rem;
+}
+.box>.flex{
+    gap: 10rem;
+    display: flex;
+}
+.content{
+    width: 22rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:0px 20px;
+    
+}
+.content>p{
+    border-radius: 8px;
+    padding: 0px 20px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.box>h1{
+   padding: 10px;
+   margin-bottom: 4rem;
+   border-radius: 5px;
+}
+#f{
+    border-right: 8px solid blue;
+}
+#s{
+    border-left: 8px solid green;
+}
+#t{
+    border-right: 8px solid red;
+}
+#f2{
+    border-bottom: 5px solid blue;
+}
+#s2{
+    border-bottom: 5px solid green;
+}
+#t2{
+    border-bottom: 5px solid red;
+    
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.arrow>img{
+    width: 2rem;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    margin: 5rem 0rem;
+    text-align: center;
+}
+.box1{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%; /* Create a circle */
+        background: conic-gradient(blue 0deg, blue 90deg, orange 90deg, orange 180deg, green 180deg, green 270deg, red 270deg, red 360deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.in_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.in_box>span{
+    font-size: 2rem;
+    font-weight: 700;
+    color:#5F5F5F;
+}
+.cir_in>span:nth-child(2){
+    font-size: 1.7rem;
+}
