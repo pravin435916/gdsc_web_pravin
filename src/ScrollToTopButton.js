@@ -8,11 +8,10 @@ const ScrollToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', // This adds smooth scrolling animation
+      behavior: 'smooth',
     });
   };
 
-  // Event listener to show/hide the button based on scroll position
   window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
       setShowButton(true);
